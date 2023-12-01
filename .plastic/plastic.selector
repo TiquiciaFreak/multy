@@ -1,0 +1,4 @@
+repository "MULTI@SakuraGamesCR@cloud"
+  path "/"
+    br "/main"
+    co "/main"
