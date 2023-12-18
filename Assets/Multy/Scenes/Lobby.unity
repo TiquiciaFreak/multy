@@ -830,6 +830,7 @@ GameObject:
   - component: {fileID: 1693689408}
   - component: {fileID: 1693689409}
   - component: {fileID: 1693689411}
+  - component: {fileID: 1693689412}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -887,8 +888,23 @@ MonoBehaviour:
   _enableGlobalScenes: 1
   _startInOffline: 0
   _offlineScene: Assets/Multy/Scenes/Lobby.unity
-  _onlineScene: 
+  _onlineScene: Assets/Multy/Scenes/Game.unity
   _replaceScenes: 0
+--- !u!114 &1693689412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693689407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 211a9f6ec51ddc14f908f5acc0cd0423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerPrefab: {fileID: 998148608867712841, guid: 028d4da03f7f99e448d253a804869618, type: 3}
+  _addToDefaultScene: 0
+  Spawns: []
 --- !u!1 &1703768724
 GameObject:
   m_ObjectHideFlags: 0
